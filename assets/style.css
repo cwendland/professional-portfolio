@@ -8,18 +8,16 @@
 
 body {
     min-height: 100vh;
-    background: linear-gradient(coral, rgb(255, 176, 147));
+    background: antiquewhite;
 }
 
 header {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     padding: 30px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: coral;
 }
 
 header h1{
@@ -60,20 +58,33 @@ main {
     display: flex;
     margin: 20px 20px;
     flex-direction: column;
+    color: coral;
 }
 
 article {
-    display: block;
+    position: relative;
     margin: 100px 100px;
 }
 
 .left-bar {
-    width: 50%;
+    position: absolute;
+    font-size: 2rem;
+    text-align: end;
+    padding: 20px;
+    border-right: 5px solid coral;
+    left: 0%;
+    width: 25%;
 }
 
 .right-bar {
+    position: absolute;
+    text-align: center;
+    right: 0px;
     color: black;
-    width: 49%;
+    width: 74%;
+}
+
+.card {
 }
 
 
